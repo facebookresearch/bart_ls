@@ -3,7 +3,7 @@
 This repo contains code/checkpoints to reproduce the results of the paper: [Adapting Pretrained Text-to-Text Models for Long Text Sequences](https://arxiv.org/abs/2209.10052). We further pretrain the [BART](https://arxiv.org/abs/1910.13461) model for long sequence tasks, setting new state-of-the-art on abstract summarization of long texts (e.g., GovReport, BookSum, SummScreen, QMSum). Our implementation is based on custom forks of [fairseq](https://github.com/facebookresearch/fairseq) and [xformers](https://github.com/facebookresearch/xformers). You could use this repo to finetune on your own long-context tasks or implement efficienct long-context models while using the fast fairseq package.
 
 ## Environment Setup
-Our model is developed using A100 GPUs and CUDA version 11.6, PyTorch 1.12.1. The exact result numbers might vary due to environment differences. 
+Our model is developed using A100 GPUs and CUDA version 11.4, PyTorch 1.12.1. The exact result numbers might vary due to environment differences. 
 
 * Install xformers and fairseq by running `pip install -e .` under their directory. Install apex following [https://github.com/NVIDIA/apex](https://github.com/NVIDIA/apex).
 
