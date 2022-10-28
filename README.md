@@ -80,7 +80,7 @@ This script will print ROUGE numbers calculated by [rouge_score](https://pypi.or
 
 
 ## BibTeX
-If you find 
+If you find the repo useful, please consider citing our paper:
 ```
 @article{xiong2022adapting,
   title={Adapting Pretrained Text-to-Text Models for Long Text Sequences},
